@@ -9,10 +9,10 @@ int main()
     cin >> input;
 
     // uncomment below line 
-    // rev = string(input.rbegin(),input.rend());
+     rev = string(input.rbegin(),input.rend());
 
     // Prints reverse of the string 
-    cout << rev;     
+    cout << rev << "\n";     
 
     return 0;
 }
